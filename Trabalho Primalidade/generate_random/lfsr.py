@@ -48,27 +48,5 @@ class LFSR:
             result = (result << 1) | (self.step() & 1)
         return result
 
-# Exemplo de uso:
-if __name__ == "__main__":
-    # Semente inicial
-    seed = 0x123456789ABCDEF123456789ABCDEF123456789ABCDEF123456789ABCDEF1234  # Exemplo de semente de 4096 bits
-    
-    # Taps selecionados com base em um polinômio primitivo (para garantir boa aleatoriedade)
-    taps = [4095, 4093, 4089, 4080]  # Exemplo de taps (posições onde o XOR será aplicado)
-
-    # Inicializa o LFSR com 4096 bits
-    lfsr = LFSR(seed=seed, taps=taps)
-
-    nbits = [40, 56, 80, 128, 168, 224, 256, 512, 1024, 2048, 4096]
-    # Gera números aleatórios de 64 bits
-
-    for nbit in nbits:
-        random_number = lfsr.get_random_bits(nbit)
-        print(f"Número aleatório: {random_number:#0{18}x}")
-        print(f"Bits: {random_number.bit_length()}")
-
-    if len(sys.argv) != 1:
-        print(f"Informe o numero de bits do numero aleatorio a ser gerado")
-        sys.exit(1)
 
 

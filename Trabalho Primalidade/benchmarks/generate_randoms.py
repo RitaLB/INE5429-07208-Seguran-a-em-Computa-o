@@ -54,7 +54,6 @@ def benchmark():
     # Mostrando a tabela
     print(results)
 
-    # Opcional: Salvando a tabela em um arquivo CSV
     results.to_csv("randoms_comparation.csv", index_label="Número de Bits")
 
     # Gerando e mostrando o gráfico

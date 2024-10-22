@@ -65,8 +65,6 @@ def benchmark():
          
 
     # Criando um DataFrame para armazenar os resultados
-    #results = pd.DataFrame(zip(*times), columns=labels, index=n_values)
-
     results = pd.DataFrame({
         "Número de Bits": n_values,
         "Tempo Miller Rabin (s)": times[0],
@@ -78,7 +76,6 @@ def benchmark():
     # Mostrando a tabela
     print(results)
 
-    # Opcional: Salvando a tabela em um arquivo CSV
     results.to_csv("prim_generations.csv", index_label="Número de Bits")
 
     # Gerando e mostrando o gráfico
