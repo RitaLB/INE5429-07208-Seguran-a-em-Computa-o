@@ -1,0 +1,77 @@
+Founds for 40 bits: 1000
+Disagreements for 40 bits: 0
+Agreements for 40 bits: 12908
+Disagreed primes for 40 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 12908
+
+
+Founds for 56 bits: 1000
+Disagreements for 56 bits: 0
+Agreements for 56 bits: 18902
+Disagreed primes for 56 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 18902
+
+
+Founds for 80 bits: 1000
+Disagreements for 80 bits: 0
+Agreements for 80 bits: 28102
+Disagreed primes for 80 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 28102
+
+
+Founds for 128 bits: 1000
+Disagreements for 128 bits: 0
+Agreements for 128 bits: 44857
+Disagreed primes for 128 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 44857
+
+
+Founds for 168 bits: 1000
+Disagreements for 168 bits: 0
+Agreements for 168 bits: 55050
+Disagreed primes for 168 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 55050
+
+
+Founds for 224 bits: 1000
+Disagreements for 224 bits: 0
+Agreements for 224 bits: 78108
+Disagreed primes for 224 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 78108
+
+
+Founds for 256 bits: 100
+Disagreements for 256 bits: 0
+Agreements for 256 bits: 7043
+Disagreed primes for 256 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 7043
+
+
+Founds for 512 bits: 100
+Disagreements for 512 bits: 0
+Agreements for 512 bits: 19879
+Disagreed primes for 512 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 19879
+
+
+Founds for 1024 bits: 10
+Disagreements for 1024 bits: 0
+Agreements for 1024 bits: 2577
+Disagreed primes for 1024 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 2577
+
+
+Founds for 2048 bits: 10
+Disagreements for 2048 bits: 0
+Agreements for 2048 bits: 8823
+Disagreed primes for 2048 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 8823
+
+
+Founds for 4096 bits: 5
+Disagreements for 4096 bits: 0
+Agreements for 4096 bits: 16395
+Disagreed primes for 4096 bits: {'fermat': [], 'miller_rabin': []}
+Total tested numbers: 16395
+
+
